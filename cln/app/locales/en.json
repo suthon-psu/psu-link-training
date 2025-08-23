@@ -1,0 +1,21 @@
+{
+  "login.title": "Log in to your account",
+  "login.usernameLabel": "Username",
+  "login.passwordLabel": "Password",
+  "login.usernamePlaceholder": "Enter your username",
+  "login.passwordPlaceholder": "Enter your password",
+  "login.submitButton": "Log in",
+  "login.loggingIn": "Logging in...",
+  "login.error.generic": "Login failed. Please check your credentials.",
+  "login.error.validation": "Please enter both username and password.",
+  "login.error.unauthorized": "Unauthorized. You don't have access to this application.",
+  "login.or": "OR",
+  "login.oidcButton": "Login with Single Sign-On",
+  "login.oidc.processing": "Processing login...",
+  "login.success.oidc": "Login successful",
+  "login.error.oidc.initiate": "Failed to initiate SSO login",
+  "login.error.oidc.callback": "Authentication failed. Please try again.",
+  "login.error.oidc.notoken": "No access token received",
+  "login.error.oidc.disabled": "Single Sign-On is not enabled for this application",
+  "login.backToLogin": "Back to Login"
+}

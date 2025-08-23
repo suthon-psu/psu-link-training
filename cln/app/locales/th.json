@@ -1,0 +1,21 @@
+{
+  "login.title": "เข้าสู่ระบบ",
+  "login.usernameLabel": "ชื่อผู้ใช้",
+  "login.passwordLabel": "รหัสผ่าน",
+  "login.usernamePlaceholder": "กรอกชื่อผู้ใช้",
+  "login.passwordPlaceholder": "กรอกรหัสผ่าน",
+  "login.submitButton": "เข้าสู่ระบบ",
+  "login.loggingIn": "กำลังเข้าสู่ระบบ...",
+  "login.error.generic": "เข้าสู่ระบบล้มเหลว โปรดตรวจสอบข้อมูลของคุณ",
+  "login.error.validation": "กรุณากรอกชื่อผู้ใช้และรหัสผ่าน",
+  "login.error.unauthorized": "ไม่ได้รับอนุญาต คุณไม่มีสิทธิ์เข้าใช้งานแอปพลิเคชันนี้",
+  "login.or": "หรือ",
+  "login.oidcButton": "เข้าสู่ระบบด้วยระบบลงชื่อเข้าใช้ครั้งเดียว",
+  "login.oidc.processing": "กำลังประมวลผลการเข้าสู่ระบบ...",
+  "login.success.oidc": "เข้าสู่ระบบสำเร็จ",
+  "login.error.oidc.initiate": "ไม่สามารถเริ่มการเข้าสู่ระบบแบบ SSO ได้",
+  "login.error.oidc.callback": "การยืนยันตัวตนล้มเหลว โปรดลองอีกครั้ง",
+  "login.error.oidc.notoken": "ไม่ได้รับโทเค็นการเข้าถึง",
+  "login.error.oidc.disabled": "ระบบลงชื่อเข้าใช้ครั้งเดียวไม่ได้เปิดใช้งานสำหรับแอปพลิเคชันนี้",
+  "login.backToLogin": "กลับไปยังหน้าเข้าสู่ระบบ"
+}
