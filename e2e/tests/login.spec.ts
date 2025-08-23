@@ -5,11 +5,12 @@ test('login with valid credentials', async ({ page }) => {
   await page.goto('/');
   
   // Fill in login credentials using robust locators
-  await page.getByLabel(/username/i).fill('u0');
+  await page.getByTestId('username-input').fill('u0');
   await page.getByLabel(/password/i).fill('xxxx');
   
   // Click login button
   await page.getByRole('button', { name: /log in/i }).click();
+  //await page.getByTestId('login-button').click();
   
   // Verify successful login by checking redirect to home page
   await expect(page).toHaveURL('/');

@@ -118,6 +118,9 @@ const LoginPage: React.FC = () => {
                       </InputAdornment>
                     ),
                   },
+                  htmlInput: {
+                    'data-testid': 'username-input',
+                  },
                 }}
                 autoFocus
               />
@@ -142,6 +145,9 @@ const LoginPage: React.FC = () => {
                       </InputAdornment>
                     ),
                   },
+                  htmlInput: {
+                    'data-testid': 'password-input',
+                  },
                 }}
               />
             </FormControl>
@@ -150,7 +156,8 @@ const LoginPage: React.FC = () => {
               type="submit"
               variant="contained"
               disabled={isLoading}
-              fullWidth              
+              fullWidth
+              data-testid="login-button"
             >
               {isLoading 
                 ? intl.formatMessage({ id: 'login.loggingIn' })
